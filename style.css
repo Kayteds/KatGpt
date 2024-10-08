@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 25px;
+  font-family: "SUSE", sans-serif;
+}
+
+
+body{ 
+   background-color: #111010;
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+  
+}
+
+h1 {
+    color: #faf7f7;
+}
+
+/*     PRIMEIRA TELA    */
+
+.logo{
+    max-width: 500px;
+    margin-bottom: 14px ;
+}
+
+.button {
+    height: 45px;
+    width: 285px;
+    color: #fff; 
+    font-size: 20px;
+    border-radius: 25px; 
+    background: rgb(1, 189, 42);
+    text-decoration: none; 
+    margin-top: 50px;
+    cursor: pointer; 
+    display: inline-block;
+    text-align: center; 
+    line-height: 40px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; 
+}
+
+.button:hover {
+    background: rgb(0, 230, 11);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+
+.button:active {
+    background: rgb(12, 12, 12);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px); 
+}
+
+
+/*  SEGUNDA TELA  */
+
+.button__pergunta{
+    margin: 30px;
+    border-radius: 15px;
+    
+}
+
+.button-voltar {
+    background: rgb(1, 189, 42);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; 
+    margin: 20px;
+    border-radius: 15px;
+    border: none;
+    position: absolute;
+    top: 5px;
+    left: 18px;
+    width: 80px;
+    height: 30px;
+    padding: 0px 5px ;
+    
+}
+
+.button-voltar a {
+    font-size: 19px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #e0d8d8;
+}
+
+.button-voltar:hover{
+    background: rgb(0, 230, 11);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+
+}
+
+.button-voltar a:hover {
+    color: #e0d8d8;
+}
+
+.small-img img {
+    width: 480px; 
+    height: 480px; 
+    border-radius: 30px;
+}
+
+.typing-container {
+    width: 480px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background: rgb(32, 30, 30);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .chat-box {
+    color: #faf7f7;
+    padding: 40px;
+    border-radius: 10px;
+    background: rgb(32, 30, 30);
+    margin: 0 auto;
+    max-width: 400px;
+    white-space: pre-wrap;
+    border: none;
+
+ }
+
+    .typing-indicator{
+        height: 10px;
+        font-style: italic;
+        color: #e0d8d8; 
+        
+    }
+
+    /* botão de pesquisa  */
+    header {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #search-form {
+      
+        display: flex;
+        border-radius: 20px;
+        overflow: hidden;
+        height: 50px;
+        width: 480px;
+        margin-top: 20px;
+        
+      
+        
+    }
+    
+    #search-input {
+        border: none;
+        padding: 15px;
+        font-size: 20px;
+        flex: 1;
+    }
+    
+    button {
+        border: none;
+        padding: 10px 20px;
+        background-color: #141414;
+        color: white;
+        font-size: 14px;
+        cursor: pointer;
+        
+    }
+    
+    button:hover {
+        background-color: #46494d;
+
+    }
